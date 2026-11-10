@@ -1,0 +1,32 @@
+# Salesforce CLI local state and auth — never commit
+.sf/
+.sfdx/
+**/.sf/
+**/.sfdx/
+.localdevserver/
+deploy-options.json
+
+# Credentials and secrets
+*.key
+*.pem
+*.crt
+.env
+.env.*
+**/authUrl*.txt
+**/*sfdxAuthUrl*
+
+# Logs and test output
+*.log
+logs/
+**/test-results/
+**/coverage/
+
+# Tooling
+node_modules/
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

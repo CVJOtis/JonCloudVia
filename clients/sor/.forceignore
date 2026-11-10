@@ -1,0 +1,7 @@
+# Files the Salesforce CLI should skip when pushing/deploying
+package.xml
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**
+**/*.md
+**/.gitkeep
